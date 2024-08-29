@@ -22,6 +22,7 @@ a {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
+    border-radius: 5px;
 }
 
 a:hover {
@@ -32,14 +33,29 @@ a:hover {
 }
 
 a#instagram:hover {
-    background-image: linear-gradient(to left, #FAAD5A, #7A04FF, #FD00BF);
+    background-image: linear-gradient(to right, #6056C9, #DD347B);
+    text-shadow: 1px 1px 1px black;
 }
 
 a#github:hover {
     background-color: rgb(63, 63, 63);
+    text-shadow: 1px 1px 1px black;
 }
 
 a#linkedin:hover {
+    background-image: linear-gradient(to right, white, #0a6bca);
+    text-shadow: 1px 1px 1px black;
+}
+
+a#instagram:active {
+    background-image: linear-gradient(to left, #FAAD5A, #7A04FF, #FD00BF);
+}
+
+a#github:active {
+    background-color: rgb(63, 63, 63);
+}
+
+a#linkedin:active {
     background-color: #0A78B5;
     
 }
@@ -76,9 +92,11 @@ main {
 }
 
 p {
+    text-align: justify, center;
     text-indent: 20px;
     font-family: Lato, sans-serif;
     font-weight: 300;
+    padding: 10px;
 }
 
 iframe {
@@ -88,7 +106,7 @@ iframe {
 }
 
 footer {
-    background-color: rgb(29, 0, 43);
+    background-color: #293E3B;
     margin: auto;
     padding: 1px;
     color: white;
